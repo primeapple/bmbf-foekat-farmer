@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F728A07-55DB-B27A-A3D7-CC2D61DB0D19" name="orte">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>D54B867A-CEC5-63FE-41F7-27AD1588FCC8</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D8355A4B-CC3E-47B1-D424-73192E57E11A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A81B68CB-FB64-33D8-E70E-B5BE673417B9</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subclass_type" id="3F24CA53-FD5F-439C-2455-96DA572F7420">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<constraintName>CH_INH_orte</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<listOfValues>
+<valueDef value="ausland" description="entity ausland"/>
+<valueDef value="gemeinde_inland" description="entity gemeinde_inland"/>
+<valueDef value="nicht_zuzuordnen" description="entity nicht_zuzuordnen"/>
+<valueDef value="ort_inland" description="entity ort_inland"/>
+<valueDef value="orte" description="entity orte"/>
+<valueDef value="unbekannt_inland" description="entity unbekannt_inland"/>
+</listOfValues>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46D4243F-43B2-2F1D-B093-4BE29ED7D609" name="orte_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BC45D256-18E0-29E9-2A23-DD85DB057E09</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8355A4B-CC3E-47B1-D424-73192E57E11A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

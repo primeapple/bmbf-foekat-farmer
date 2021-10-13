@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B94ED8A6-B539-1665-91FE-654EFB5078D1" name="unbekannt_inland">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 10:43:07 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D54B867A-CEC5-63FE-41F7-27AD1588FCC8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kennziffer" id="9808A099-63B7-7D39-87BE-B05D11BAD4BE">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-20 08:02:57 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gemeinde" id="E83D5F9F-1477-1D21-8995-6591976BAEFA">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 14:44:17 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ort" id="4EF2C3B8-DAEC-CF80-B848-7AAA0EF8B2FF">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 14:51:08 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bundesland" id="303E7A99-43AC-9375-186F-B6658EBDF4A9">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 14:51:26 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staat" id="B6F8AD0C-A532-C223-B1E2-BFF9D7203F7A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-20 07:58:34 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED3900CB-1A4E-904D-0328-1ED006748AC3" name="sonstige PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 11:01:47 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

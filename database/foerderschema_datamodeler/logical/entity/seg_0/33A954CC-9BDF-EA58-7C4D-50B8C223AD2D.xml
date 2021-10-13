@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33A954CC-9BDF-EA58-7C4D-50B8C223AD2D" name="stellen">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 08:43:33 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stelle" id="A3EB603E-6DC9-F235-0BCA-C1A7EACCCA97">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 08:44:01 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="78D29D2C-F6BB-AA49-24FA-91ECD94B0A4A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-19 08:23:01 UTC</createdTime>
+<generatorID>3D6B7D32-9903-E729-4441-DF639616BD90</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>A81B68CB-FB64-33D8-E70E-B5BE673417B9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A22331F-AE36-712E-338D-968BD4EF58A3" name="stelle PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 08:44:08 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3EB603E-6DC9-F235-0BCA-C1A7EACCCA97</attributeRef>
+<attributeRef>78D29D2C-F6BB-AA49-24FA-91ECD94B0A4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

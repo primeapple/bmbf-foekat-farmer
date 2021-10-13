@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FB041910-0DF7-8A7F-EF02-0520637DBA36">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 06:52:36 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

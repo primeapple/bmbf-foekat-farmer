@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="699333EA-C798-2F51-9436-C7E85DE03F6F" containerWithKeyObject="B92E3E9D-1659-4513-5A31-F8186A665A5C" localFKIndex="ADA87DB7-01CD-F2FC-ACC6-AC2D07C650C5" name="foerderungen_foerdermittelgeber_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>EFB8B8AC-6D62-FEAA-0546-DC8C4C532EE1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>foerdermittelgeber</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA76932D-C20A-6973-7FC0-337F3FD12E2A</referredTableID>
+<keyObject>5DC9C180-20E8-5CB0-3793-B26D6262C993</keyObject>
+<referredKeyID>5DC9C180-20E8-5CB0-3793-B26D6262C993</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>referat,ressort</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="99DB94AE-607D-5BF7-1A1E-50F744A0D9C3" mainViewID="80D87864-F1F2-6D78-6813-3541DF31D1F6">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 06:52:35 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

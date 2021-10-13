@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3927E645-60FF-796C-2B89-4CB7215B01C7" name="projekttraeger">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BC97AA0C-8F3E-CDE6-C7BC-C02285E876BC</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="48BAF93D-88E3-70B2-385C-D4299C56E313">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A08BCD93-FCF3-810B-622B-30B8A12C7BA7</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="traeger" id="04DDE7C6-3E72-F831-9805-75AE8D16B8EB">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>C307AD8E-0D7E-3E31-AADC-67639E169C52</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arbeitseinheit" id="43DD6556-AB3D-3F97-E632-C5821E85A99C">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>511C63A6-543D-8D61-E4D9-D1AD005B3012</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AC0C2B2-B0E6-DAAB-1490-0BCB0612B9EC" name="projekttraeger_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>46EFA883-4FC7-1FCA-9E85-4C6C5D3AE8BA</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48BAF93D-88E3-70B2-385C-D4299C56E313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

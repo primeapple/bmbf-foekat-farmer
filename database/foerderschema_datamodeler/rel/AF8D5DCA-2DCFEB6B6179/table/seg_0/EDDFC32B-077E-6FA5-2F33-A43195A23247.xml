@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDDFC32B-077E-6FA5-2F33-A43195A23247" name="nicht_zuzuordnen">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>687F307D-CDF0-B8E8-719A-737901B66F1F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="285F84A6-6365-C614-A7FB-18ADC8DE71FA">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A81B68CB-FB64-33D8-E70E-B5BE673417B9</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AB134FA-4E1F-12B0-6EAC-79ACA5D79119" referredColumn="D8355A4B-CC3E-47B1-D424-73192E57E11A"/>
+</associations>
+</Column>
+<Column name="kennziffer" id="54900F86-9450-24C2-6276-EAC6800ADE4D">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>9139490B-0F2C-10DD-9730-B85CDCAB27BA</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gemeinde" id="C91950E7-587A-A9D1-9232-F578DBFC1CAC">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>6880E8E2-9FEA-ECBB-F377-6B45A63F5D8C</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ort" id="3430F191-3FF3-979E-F2D9-AE80C7AE7EB3">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>AA94F111-ED27-9BA5-10B4-1B02417B79AD</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bundesland" id="7B408DE3-69A3-98C8-6F00-93BD9A085C58">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>F251DFC6-9E15-6CCA-5A02-F3E0C7A14186</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staat" id="ADCF0C2A-8DA7-6A9A-44E3-F9DB91C465DF">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>38B6FDCF-9589-AEAC-B65E-E09460DA75D4</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D05C38F-8B08-D123-79F6-B5BDEDE73281" name="nicht_zuzuordnen_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BC45D256-18E0-29E9-2A23-DD85DB057E09</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285F84A6-6365-C614-A7FB-18ADC8DE71FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FB6AC4D-1809-2C98-164E-FC715D898ECB" name="nicht_zuzuordnen_PKv1">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>276382D6-3C84-623B-ED17-E905792CD0ED</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0FB5495C-4B0F-740D-69AD-C5598C322ED8" name="nicht_zuzuordnen_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>0A87FF79-51FA-2306-4F05-6E61CB438EA7</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285F84A6-6365-C614-A7FB-18ADC8DE71FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

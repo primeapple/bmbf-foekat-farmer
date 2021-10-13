@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA76932D-C20A-6973-7FC0-337F3FD12E2A" name="foerdermittelgeber">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>B8E62505-4D21-17AF-3206-1399C7F89813</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ressort" id="F449B7EF-2715-2652-1F9A-07C1213F11A2">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>666796B6-8B39-63F9-4187-8CDA6857DB8C</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referat" id="8E01A487-7BCD-E74F-4D96-7EC28BEAED45">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>115CDA8E-8E48-B267-E7AE-4C7B60F1AC3A</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DC9C180-20E8-5CB0-3793-B26D6262C993" name="foerdermittelgeber_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>184FF0DF-EAD1-3CFC-02CD-D1BED1521A32</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E01A487-7BCD-E74F-4D96-7EC28BEAED45"/>
+<colUsage columnID="F449B7EF-2715-2652-1F9A-07C1213F11A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

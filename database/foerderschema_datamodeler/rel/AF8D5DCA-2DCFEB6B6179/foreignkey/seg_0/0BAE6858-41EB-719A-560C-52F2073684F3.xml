@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BAE6858-41EB-719A-560C-52F2073684F3" containerWithKeyObject="B92E3E9D-1659-4513-5A31-F8186A665A5C" localFKIndex="83156DD2-090D-B1C8-D5A7-6119FAFEEBE4" name="foerderungen_leistungsplansystematiken_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>75DF678A-B2AC-67BE-59C6-8992C9BA75E6</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>leistungsplansystematiken</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AEF3122D-3002-0C5A-213E-7AC51250060A</referredTableID>
+<keyObject>1D4BD213-7ED4-8F10-1906-10D868526298</keyObject>
+<referredKeyID>1D4BD213-7ED4-8F10-1906-10D868526298</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

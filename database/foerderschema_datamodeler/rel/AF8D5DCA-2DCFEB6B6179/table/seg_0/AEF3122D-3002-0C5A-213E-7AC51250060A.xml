@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF3122D-3002-0C5A-213E-7AC51250060A" name="leistungsplansystematiken">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>3C916B45-E16F-00E3-E4A8-5E6591D0BE76</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="64C0040E-7072-DE52-A1D2-ED56AB7F1B21">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>E6B05D95-EDBF-857B-A057-23ACBA23A1A7</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leistungsplansystematik" id="50E64538-8D42-B1C6-058D-13315FF17B42">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>FC45C94D-1069-FCF6-6E00-D7656ECA80C1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klartext" id="19503EFE-0D23-2219-411F-F7A15A1C749B">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>AFDED25B-5FC8-3896-222A-E2D5E15DC305</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D4BD213-7ED4-8F10-1906-10D868526298" name="leistungsplansystematiken_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>931E51D1-207C-BE4A-3F1B-C5349AAA0A9B</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C0040E-7072-DE52-A1D2-ED56AB7F1B21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB76DF15-CF46-1AE2-F8A8-32014D0B5DDF" name="ausland">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>7C9DB18B-EB14-AC55-7DE1-C1BE39301A3F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6F651B51-ABB4-D99A-6FC2-DF50FBA77C9C">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A81B68CB-FB64-33D8-E70E-B5BE673417B9</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F3D522B-D8AB-859A-DCF9-9FB24ADDCDB3" referredColumn="D8355A4B-CC3E-47B1-D424-73192E57E11A"/>
+</associations>
+</Column>
+<Column name="kennziffer" id="E5021C4B-0311-2D47-EDD3-A53234EB52B5">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BD81CDA2-2FEA-A14F-52CE-4E098CCBBF13</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gemeinde" id="EF4D715E-6A07-388F-97BC-29C46DB91BBE">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>C17AC422-443D-0BD6-F5C6-1C5A7D251B05</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ort" id="324912D0-37D5-C7CC-3B07-EC6DEE4098E5">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>378E4032-0271-D85A-E382-8F5D53485C9C</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staat" id="D172E022-1006-5C7E-7067-560847D631B2">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>C22F4FC8-4AF5-B1EB-D014-F08F6172C4D5</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D8AB320-CC88-788C-3B23-02E7E1AE9EEC" name="ausland_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BC45D256-18E0-29E9-2A23-DD85DB057E09</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F651B51-ABB4-D99A-6FC2-DF50FBA77C9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8DFB73F-6DD8-80A5-9B6E-2C83EE8D17E8" name="ausland_PKv1">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>34778AEE-559C-6D4A-A032-A6521DE26FF2</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="CFC2495D-FBB7-A8E6-F290-75A1465F4510" name="ausland_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>88BE66A3-90D4-D567-137E-75FF13C04C65</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F651B51-ABB4-D99A-6FC2-DF50FBA77C9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

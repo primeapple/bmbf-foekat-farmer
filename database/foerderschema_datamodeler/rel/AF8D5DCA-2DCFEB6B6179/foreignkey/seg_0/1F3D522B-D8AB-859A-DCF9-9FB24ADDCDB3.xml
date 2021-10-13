@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F3D522B-D8AB-859A-DCF9-9FB24ADDCDB3" containerWithKeyObject="AB76DF15-CF46-1AE2-F8A8-32014D0B5DDF" localFKIndex="CFC2495D-FBB7-A8E6-F290-75A1465F4510" name="ausland_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>88BE66A3-90D4-D567-137E-75FF13C04C65</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>orte</referredTableLongName>
+<arc>AF9D671E-90C5-B05E-6E55-7F34EFE57172</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F728A07-55DB-B27A-A3D7-CC2D61DB0D19</referredTableID>
+<keyObject>46D4243F-43B2-2F1D-B093-4BE29ED7D609</keyObject>
+<referredKeyID>46D4243F-43B2-2F1D-B093-4BE29ED7D609</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>ausland</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

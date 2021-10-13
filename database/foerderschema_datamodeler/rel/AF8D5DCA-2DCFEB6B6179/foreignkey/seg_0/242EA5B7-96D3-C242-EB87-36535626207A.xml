@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="242EA5B7-96D3-C242-EB87-36535626207A" containerWithKeyObject="5BFEB6B2-714A-2CE4-8476-F34A48849A91" localFKIndex="C972C549-23DF-1B0A-0BAC-02AF4B7E88D9" name="ort_inland_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>F2F78C7C-8E7F-FD0B-84D0-21BB70AC89AF</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>orte</referredTableLongName>
+<arc>AF9D671E-90C5-B05E-6E55-7F34EFE57172</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F728A07-55DB-B27A-A3D7-CC2D61DB0D19</referredTableID>
+<keyObject>46D4243F-43B2-2F1D-B093-4BE29ED7D609</keyObject>
+<referredKeyID>46D4243F-43B2-2F1D-B093-4BE29ED7D609</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>ort_inland</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

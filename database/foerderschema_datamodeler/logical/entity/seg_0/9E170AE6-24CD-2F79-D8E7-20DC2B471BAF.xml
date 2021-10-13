@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E170AE6-24CD-2F79-D8E7-20DC2B471BAF" name="foerderungen">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:28:07 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="foerderkennzeichen" id="E1C8BB06-B022-FD32-4A1A-18F1EC014FB2">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:28:20 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laufzeit_start" id="40BFBC8A-1752-CB18-B612-CF8CC3487E2B">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:28:29 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laufzeit_ende" id="D1A2933B-FC5F-83F3-81D3-118D0D95E4D8">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:52:24 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foerdersumme" id="24870F6A-755E-2874-365E-0ECEE68775CD">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:52:35 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referat" id="020A2761-78A0-3AD6-01FB-1E1296F66AA3">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:59:17 UTC</createdTime>
+<generatorID>EFB8B8AC-6D62-FEAA-0546-DC8C4C532EE1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>115CDA8E-8E48-B267-E7AE-4C7B60F1AC3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ressort" id="22B07B4A-E5FA-83B7-1165-839075764EAC">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:59:17 UTC</createdTime>
+<generatorID>EFB8B8AC-6D62-FEAA-0546-DC8C4C532EE1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>666796B6-8B39-63F9-4187-8CDA6857DB8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="9BA8B6F2-ADE7-019A-F96D-95729CD8322E">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-27 08:36:41 UTC</createdTime>
+<generatorID>069C8F94-AB43-BF2C-8457-4A6BD742F55F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>A08BCD93-FCF3-810B-622B-30B8A12C7BA7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stelle" id="B1DF5A59-D4FD-0128-0FD7-7D422CE74ABF">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-19 08:22:52 UTC</createdTime>
+<generatorID>9360EE01-0ADC-A736-0553-24232FDF617F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>A3EB603E-6DC9-F235-0BCA-C1A7EACCCA97</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stelle1" id="153B0678-05F7-6FC6-4A39-03B446D13771">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-19 08:22:52 UTC</createdTime>
+<generatorID>3A582D0F-9C31-A85D-2C63-E1283036F708</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>A3EB603E-6DC9-F235-0BCA-C1A7EACCCA97</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="55E365D4-A57E-75CF-2DC0-7BBE84A0EB10">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-19 08:23:01 UTC</createdTime>
+<generatorID>9360EE01-0ADC-A736-0553-24232FDF617F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>78D29D2C-F6BB-AA49-24FA-91ECD94B0A4A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="EE97C43F-9E3D-9101-AE34-22B47EF8658D">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-19 08:23:01 UTC</createdTime>
+<generatorID>3A582D0F-9C31-A85D-2C63-E1283036F708</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<referedAttribute>78D29D2C-F6BB-AA49-24FA-91ECD94B0A4A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="thema" id="F6829B7A-A0D5-B8ED-C899-C9C9FD053CBB">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:14:45 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foerderprofil" id="86D29530-3223-4D4F-5A96-933443CF5ECE">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:15:01 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="verbundprojekt" id="0E64E368-E5B3-C267-E6CC-D67AC877BEC4">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:15:09 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foerderart" id="5173D779-E1FB-D88F-02C6-BB951995F75C">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:15:16 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="B7752D31-C0E8-EDB4-6EEC-26A0C96F7D36">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:21:17 UTC</createdTime>
+<generatorID>75DF678A-B2AC-67BE-59C6-8992C9BA75E6</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E6B05D95-EDBF-857B-A057-23ACBA23A1A7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3979ED6B-2502-7725-20CF-179094C19A0D" name="foerderung PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 07:28:31 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="AF8D5DCA-E3A9-3567-7626-2DCFEB6B6179" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1C8BB06-B022-FD32-4A1A-18F1EC014FB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

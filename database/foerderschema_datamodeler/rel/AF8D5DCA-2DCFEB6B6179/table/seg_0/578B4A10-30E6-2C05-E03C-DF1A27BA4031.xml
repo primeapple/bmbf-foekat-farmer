@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="578B4A10-30E6-2C05-E03C-DF1A27BA4031" name="unbekannt_inland">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>B94ED8A6-B539-1665-91FE-654EFB5078D1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5C797EC7-C9BF-6063-FB1A-41DA9E3E1494">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A81B68CB-FB64-33D8-E70E-B5BE673417B9</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F1645BA-65FA-E439-170C-968AA0EA9523" referredColumn="D8355A4B-CC3E-47B1-D424-73192E57E11A"/>
+</associations>
+</Column>
+<Column name="kennziffer" id="9F56AC4A-C256-3EAE-9EB9-ADA935841861">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>9808A099-63B7-7D39-87BE-B05D11BAD4BE</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gemeinde" id="D4A368A7-F46A-65C7-198E-88D25B878896">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>E83D5F9F-1477-1D21-8995-6591976BAEFA</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ort" id="A6879F8D-7E15-3A75-FE73-F782081B1FD2">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>4EF2C3B8-DAEC-CF80-B848-7AAA0EF8B2FF</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bundesland" id="7A08DD0A-E3DC-E2C2-0C51-5F9B6C19EDD2">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>303E7A99-43AC-9375-186F-B6658EBDF4A9</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staat" id="6ED6D2B6-A735-044C-03CC-5E511A72D51A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>B6F8AD0C-A532-C223-B1E2-BFF9D7203F7A</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AD572ED-5E03-35C8-0D54-5D50718368A7" name="unbekannt_inland_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>BC45D256-18E0-29E9-2A23-DD85DB057E09</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C797EC7-C9BF-6063-FB1A-41DA9E3E1494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B473756-B36C-F171-0CFB-85D111B26E54" name="unbekannt_inland_PKv1">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>ED3900CB-1A4E-904D-0328-1ED006748AC3</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="C2EEDDA2-8761-2910-85F9-1F8C59055BAD" name="unbekannt_inland_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>05B86532-EBFD-3A79-9239-B76D91918FFB</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C797EC7-C9BF-6063-FB1A-41DA9E3E1494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

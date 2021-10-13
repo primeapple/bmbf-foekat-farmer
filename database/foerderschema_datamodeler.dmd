@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="foerderschema_datamodeler" id="66C9D5C2-99E6-D7B5-AEA3-E5638A1CFA97" version="3.5">
+<createdBy>toni</createdBy>
+<createdTime>2021-01-25 06:52:35 UTC</createdTime>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>66C9D5C2-99E6-D7B5-AEA3-E5638A1CFA97</designId>
+</OSDM_Design>

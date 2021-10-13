@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCCF90C2-C49A-A7FC-69F7-4C373C9E9852" name="stellen">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>33A954CC-9BDF-EA58-7C4D-50B8C223AD2D</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stelle" id="6CFB2415-899F-7346-D73A-DA809E1054BD">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>A3EB603E-6DC9-F235-0BCA-C1A7EACCCA97</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orte_id" id="5BE8A29C-08BA-0FCC-B673-C5202B19A816">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>78D29D2C-F6BB-AA49-24FA-91ECD94B0A4A</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D33F3496-AA6B-2B32-F77A-F4962ACB0862" referredColumn="D8355A4B-CC3E-47B1-D424-73192E57E11A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="065EAA41-C875-55D2-7780-86372DB037B5" name="stellen_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>4A22331F-AE36-712E-338D-968BD4EF58A3</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CFB2415-899F-7346-D73A-DA809E1054BD"/>
+<colUsage columnID="5BE8A29C-08BA-0FCC-B673-C5202B19A816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C307EBB-A397-0504-8908-1E42FC018563" name="stellen_orte_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>3D6B7D32-9903-E729-4441-DF639616BD90</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE8A29C-08BA-0FCC-B673-C5202B19A816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

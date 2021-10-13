@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3268D78-11A0-2A97-C382-A62D6818DD5C" containerWithKeyObject="B92E3E9D-1659-4513-5A31-F8186A665A5C" localFKIndex="53525E54-C261-6680-8C93-32618EB1F916" name="foerderungen_stellen_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>3A582D0F-9C31-A85D-2C63-E1283036F708</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>stellen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCCF90C2-C49A-A7FC-69F7-4C373C9E9852</referredTableID>
+<keyObject>065EAA41-C875-55D2-7780-86372DB037B5</keyObject>
+<referredKeyID>065EAA41-C875-55D2-7780-86372DB037B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>stelle,orte_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

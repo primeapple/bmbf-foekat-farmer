@@ -1,0 +1,276 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B92E3E9D-1659-4513-5A31-F8186A665A5C" name="foerderungen">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>9E170AE6-24CD-2F79-D8E7-20DC2B471BAF</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="foerderkennzeichen" id="14688781-DB63-7894-1138-B61D195DFAAA">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>E1C8BB06-B022-FD32-4A1A-18F1EC014FB2</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laufzeit_start" id="2F8CBE00-E988-B9CD-A125-7B6F1503E4FF">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>40BFBC8A-1752-CB18-B612-CF8CC3487E2B</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laufzeit_ende" id="F9D4971C-375C-DFD2-B9AF-F2F873A75B86">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>D1A2933B-FC5F-83F3-81D3-118D0D95E4D8</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foerdersumme" id="B821E837-B5F5-D9A4-B0BB-DB011308386A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>24870F6A-755E-2874-365E-0ECEE68775CD</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foerdermittelgeber_referat" id="86ECD02C-0D83-18D0-2606-D754F773E576">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>020A2761-78A0-3AD6-01FB-1E1296F66AA3</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="699333EA-C798-2F51-9436-C7E85DE03F6F" referredColumn="8E01A487-7BCD-E74F-4D96-7EC28BEAED45"/>
+</associations>
+</Column>
+<Column name="foerdermittelgeber_ressort" id="28CDAD40-E881-ED05-0B01-3BCEFA8FA2EF">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>22B07B4A-E5FA-83B7-1165-839075764EAC</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="699333EA-C798-2F51-9436-C7E85DE03F6F" referredColumn="F449B7EF-2715-2652-1F9A-07C1213F11A2"/>
+</associations>
+</Column>
+<Column name="projekttraeger_id" id="CEA811DC-E328-A549-6189-51A3FCDDBF18">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>9BA8B6F2-ADE7-019A-F96D-95729CD8322E</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77F2D7F7-F2D9-361D-9F3A-2F2062EEA1C3" referredColumn="48BAF93D-88E3-70B2-385C-D4299C56E313"/>
+</associations>
+</Column>
+<Column name="stellen_stelle2" id="22E513E1-967C-B60F-B4EC-0C1E319AD345">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>B1DF5A59-D4FD-0128-0FD7-7D422CE74ABF</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68C08755-2473-03E4-1833-9D0CE986F0F8" referredColumn="6CFB2415-899F-7346-D73A-DA809E1054BD"/>
+</associations>
+</Column>
+<Column name="stellen_stelle" id="AB19C286-093B-3DF7-57B3-A0CB1A3EF91D">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>153B0678-05F7-6FC6-4A39-03B446D13771</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3268D78-11A0-2A97-C382-A62D6818DD5C" referredColumn="6CFB2415-899F-7346-D73A-DA809E1054BD"/>
+</associations>
+</Column>
+<Column name="stellen_id2" id="8BCDA32B-1C90-46D8-018D-9840004C9B9D">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>55E365D4-A57E-75CF-2DC0-7BBE84A0EB10</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68C08755-2473-03E4-1833-9D0CE986F0F8" referredColumn="5BE8A29C-08BA-0FCC-B673-C5202B19A816"/>
+</associations>
+</Column>
+<Column name="stellen_id" id="3CC1181C-D2FB-64FD-74AE-453099CD9808">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>EE97C43F-9E3D-9101-AE34-22B47EF8658D</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3268D78-11A0-2A97-C382-A62D6818DD5C" referredColumn="5BE8A29C-08BA-0FCC-B673-C5202B19A816"/>
+</associations>
+</Column>
+<Column name="thema" id="534D8D12-1A1A-438B-475A-5714AE800607">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>F6829B7A-A0D5-B8ED-C899-C9C9FD053CBB</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foerderprofil" id="BA50F638-E6A0-228F-893A-B4697756BA11">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>86D29530-3223-4D4F-5A96-933443CF5ECE</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="verbundprojekt" id="DF35ED1D-75D7-3370-754C-AE7F8257020A">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>0E64E368-E5B3-C267-E6CC-D67AC877BEC4</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foerderart" id="38B284B5-72A7-6DD8-C22E-134B12306743">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>5173D779-E1FB-D88F-02C6-BB951995F75C</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leistungsplansystematiken_id" id="924F1968-F40E-B505-21A8-622F2A4EE4C5">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>B7752D31-C0E8-EDB4-6EEC-26A0C96F7D36</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BAE6858-41EB-719A-560C-52F2073684F3" referredColumn="64C0040E-7072-DE52-A1D2-ED56AB7F1B21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8D56B95-D714-DB0E-4485-D7189D3EC34A" name="foerderungen_PK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>3979ED6B-2502-7725-20CF-179094C19A0D</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14688781-DB63-7894-1138-B61D195DFAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53525E54-C261-6680-8C93-32618EB1F916" name="foerderungen_stellen_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>3A582D0F-9C31-A85D-2C63-E1283036F708</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB19C286-093B-3DF7-57B3-A0CB1A3EF91D"/>
+<colUsage columnID="3CC1181C-D2FB-64FD-74AE-453099CD9808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="253D0230-A001-D388-643B-3CB77E2C7F92" name="foerderungen_stellen_FKv2">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>9360EE01-0ADC-A736-0553-24232FDF617F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22E513E1-967C-B60F-B4EC-0C1E319AD345"/>
+<colUsage columnID="8BCDA32B-1C90-46D8-018D-9840004C9B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83156DD2-090D-B1C8-D5A7-6119FAFEEBE4" name="foerderungen_leistungsplansystematiken_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>75DF678A-B2AC-67BE-59C6-8992C9BA75E6</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924F1968-F40E-B505-21A8-622F2A4EE4C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADA87DB7-01CD-F2FC-ACC6-AC2D07C650C5" name="foerderungen_foerdermittelgeber_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>EFB8B8AC-6D62-FEAA-0546-DC8C4C532EE1</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86ECD02C-0D83-18D0-2606-D754F773E576"/>
+<colUsage columnID="28CDAD40-E881-ED05-0B01-3BCEFA8FA2EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6F4FFBD-8175-C631-D7AB-87FB18FF7F87" name="foerderungen_projekttraeger_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>069C8F94-AB43-BF2C-8457-4A6BD742F55F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA811DC-E328-A549-6189-51A3FCDDBF18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

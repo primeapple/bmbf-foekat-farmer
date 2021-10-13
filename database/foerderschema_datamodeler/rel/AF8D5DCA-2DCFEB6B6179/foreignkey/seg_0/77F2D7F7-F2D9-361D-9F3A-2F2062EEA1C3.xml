@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77F2D7F7-F2D9-361D-9F3A-2F2062EEA1C3" containerWithKeyObject="B92E3E9D-1659-4513-5A31-F8186A665A5C" localFKIndex="C6F4FFBD-8175-C631-D7AB-87FB18FF7F87" name="foerderungen_projekttraeger_FK">
+<createdBy>toni</createdBy>
+<createdTime>2021-03-25 10:29:04 UTC</createdTime>
+<generatorID>069C8F94-AB43-BF2C-8457-4A6BD742F55F</generatorID>
+<ownerDesignName>foerderschema_datamodeler</ownerDesignName>
+<referredTableLongName>projekttraeger</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3927E645-60FF-796C-2B89-4CB7215B01C7</referredTableID>
+<keyObject>8AC0C2B2-B0E6-DAAB-1490-0BCB0612B9EC</keyObject>
+<referredKeyID>8AC0C2B2-B0E6-DAAB-1490-0BCB0612B9EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
